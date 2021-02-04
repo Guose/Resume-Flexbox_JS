@@ -16,10 +16,10 @@ console.log('class query results: ', classQuery);
 var h1Query = document.querySelector("h1");
 console.log('h1 query results: ', h1Query);
 
-var classQueryAll = document.querySelectorAll('.container');
+var classQueryAll = document.querySelectorAll('.content');
 console.log('here is everything in the .container div: ', classQueryAll);
 
-var lineItemsQueryAll = document.querySelectorAll('ul');
-console.log('all the ui elements are: ', lineItemsQueryAll);
+var lineItemsQueryAll = document.querySelectorAll('li');
+console.log('all the li elements are: ', lineItemsQueryAll);
 
 
